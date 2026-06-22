@@ -1,0 +1,16 @@
+{
+  "seed": 42,
+  "n_outer_repeats": 20,
+  "n_inner_folds": 5,
+  "n_trials": 50,
+  "total_seconds": 5083.3051216602325,
+  "best_overall": {
+    "model": "GB",
+    "macro_f1": 0.9407545821769119,
+    "repeat": 19
+  },
+  "friedman": {
+    "statistic": 22.621184919210055,
+    "p_value": 0.000933805180673686
+  }
+}

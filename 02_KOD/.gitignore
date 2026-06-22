@@ -1,0 +1,55 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+ENV/
+.eggs/
+*.egg-info/
+*.egg
+dist/
+build/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_meta
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Project artifacts
+.cache/
+.tmp/
+.claude/
+.playwright-mcp/
+results/figures/*.png
+results/figures/*.pdf
+results/models/*.joblib
+results/checkpoint.joblib
+results/checkpoint.joblib.tmp
+report/*.pdf
+results_log.txt
+*.log
+*.zip
+
+# Large raw data (commit-tracked only if explicitly added)
+data/raw/*.csv
+data/processed/
+
+# Optuna
+*.db
+*.sqlite
+*.sqlite3
+
+# OS
+~$*
+*.bak
